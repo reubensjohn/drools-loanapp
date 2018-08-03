@@ -10,10 +10,10 @@
 	</parent>
 
     <groupId>com.zyngl.raas</groupId>
-    <artifactId>drools-loans-poc</artifactId>
+    <artifactId>drools-loanapp</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Drools Loans-app REST POC</name>
+    <name>Drools-Loans-app-REST-POC</name>
 
 
     <modules>
