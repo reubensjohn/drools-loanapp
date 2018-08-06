@@ -1,0 +1,16 @@
+server:
+  port: ${appPort:8080}
+  
+# Spring MVC dispatcher servlet path.
+# Needs to be different than Jersey's to enable/disable Actuator endpoints access (/info, /health, ...)
+  servlet-path: /
+
+spring:
+  jersey.application-path: /api   # Jersey dispatcher servlet, make /api as URI root
+
+# app name and build version updated during build process from Maven properties.
+info:
+  app:
+    name: '@project.artifactId@'
+  build:
+    version: '@project.version@'

@@ -1,7 +1,10 @@
-package org.integrallis.drools.loans.domain
+package process
 
 import java.util.Date;
 import java.util.Calendar;
+
+import com.zyngl.loans.facts.*;
+
 
 expander loans.dsl
 

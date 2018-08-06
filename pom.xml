@@ -19,7 +19,7 @@
     <modules>
         <module>drools-loan-facts</module>
         <module>drools-loans-kjar</module>
-        <module>drools-loans-service</module>
+        <module>drools-rest-loanapp</module>
     </modules>
 <!--   
     <repositories>
