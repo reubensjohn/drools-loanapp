@@ -33,7 +33,7 @@ public class LoanServiceImpl implements LoanService {
 
        // make sure you use "LATEST" version
        KieContainer kieContainer = kieServices.newKieContainer(releaseId);
-       KieSession kSession = kieContainer.newKieSession("ksession-rules-dslr");
+       KieSession kSession = kieContainer.newKieSession("ksession-rules-drl");
 
        // Poll every 30 seconds
        KieScanner kieScanner = kieServices.newKieScanner(kieContainer);

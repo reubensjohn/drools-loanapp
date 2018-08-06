@@ -1,1 +1,10 @@
 package org.integrallis.drools.loans.domain
+
+import com.zyngl.loans.facts.*;
+
+rule "ACME-Fico"
+	when
+		$application:LoanApplication()
+	then
+		$application.addMessage("Declined because a FICO score of at least 680 is required");
+end
