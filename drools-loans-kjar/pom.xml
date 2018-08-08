@@ -13,12 +13,18 @@
 
     <name>drools-loans-kjar</name>
 
-    <properties>
+<!--     <properties>
+
         <java.min.version>1.7</java.min.version>
         <maven.min.version>3.2.3</maven.min.version>
         <github.global.server>github</github.global.server>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		drools version
+        <runtime.version>7.7.0.Final</runtime.version>
+        
     </properties>
-    
+ -->    
      
     <prerequisites>
         <maven>${maven.min.version}</maven>
@@ -30,6 +36,35 @@
             <artifactId>drools-loan-facts</artifactId>
             <version>${project.version}</version>
         </dependency>
+	     <dependency>
+	    	<groupId>junit</groupId>
+	    	<artifactId>junit</artifactId>
+	    	<scope>test</scope>
+	    </dependency>
+	    
+	    <!-- Drools dependencies -->
+		
+        <dependency>
+            <groupId>org.kie</groupId>
+            <artifactId>kie-api</artifactId>
+            <version>${runtime.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-core</artifactId>
+            <version>${runtime.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-compiler</artifactId>
+            <version>${runtime.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.kie</groupId>
+            <artifactId>kie-ci</artifactId>
+            <version>${runtime.version}</version>
+        </dependency>		
+	    
     </dependencies>  
     
      <distributionManagement>

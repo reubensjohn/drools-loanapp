@@ -14,6 +14,18 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Drools-Loans-app-REST-POC</name>
+    
+    <properties>
+
+        <java.min.version>1.7</java.min.version>
+        <maven.min.version>3.2.3</maven.min.version>
+        <github.global.server>github</github.global.server>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<!-- drools version -->
+        <runtime.version>7.7.0.Final</runtime.version>
+        
+    </properties>
 
 
     <modules>

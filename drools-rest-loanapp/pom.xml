@@ -18,11 +18,11 @@
 
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<!-- 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
-		<!-- drools version -->
+		drools version
         <runtime.version>7.7.0.Final</runtime.version>
-
+ -->
 		<!-- project related properties -->
 		<start-class>com.zyngl.raas.poc.ApiApplication</start-class>
 		<swagger-jersey2-jaxrs>1.5.18</swagger-jersey2-jaxrs>
